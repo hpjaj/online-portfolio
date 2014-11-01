@@ -1,0 +1,256 @@
+/* BEGIN my styling */
+
+.grid li:nth-of-type(odd) {
+  /*padding-right: 50px;*/
+}
+
+body {
+  background-color: #C4C4C6;
+  font-family: Gill Sans;
+  font-weight: 300;
+  color: black;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: Gill Sans;
+  font-weight: 300;
+  letter-spacing: 1px;
+  color: black;
+}
+
+figcaption span {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  color: #FF7D00;
+}
+
+#hire-me-button {
+  background-color: #FF7D00;
+  border: 2px solid #FF7D00;
+  color: white;
+  padding: 5px 10px;
+
+  /*border: 2px solid #3e4553;*/
+  margin-right: 60px;
+  /*color: #3e4553;*/
+  -webkit-transition: color .2s ease-out;
+  -moz-transition: color .2s ease-out;
+  -o-transition: color .2s ease-out;
+  transition: color .2s ease-out;
+}
+
+#hire-me-link {
+  color: #3e4553;
+}
+
+#hire-me-button:hover {
+  border: 2px solid #3e4553;
+  color: #3e4553;
+  background-color: rgba(0,0,0,0);
+
+
+/*  background-color: #FF7D00;
+  border: 2px solid #FF7D00;
+  color: white;*/
+}
+
+.navbar {
+  border-radius: 0;
+  min-height: 90px;
+}
+
+.navbar-inverse {
+  background-color: #3e4553;
+  border-color: #3e4553;
+}
+
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:hover, .navbar-inverse .navbar-nav>.active>a:focus {
+  background-color: #3e4553;
+  color: #ff7d00;
+}
+
+.navbar-inverse .navbar-nav>li>a, .navbar-inverse .navbar-brand {
+  color: white;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover, .navbar-inverse .navbar-brand:hover {
+  color: #ff7d00;
+}
+
+.navbar-nav li {
+  font-size: 16px;
+}
+
+.navbar-brand {
+  font-size: 60px;
+  padding-right: 60px;
+}
+
+.navbar-inverse .container {
+  padding-top: 20px;
+}
+
+.navbar-inverse .navbar-toggle {
+  border-color: rgba(0,0,0,0);
+}
+
+.navbar-inverse .navbar-toggle:hover {
+  background-color: rgba(0,0,0,0);
+}
+
+
+
+
+
+/* END my styling */
+
+
+
+
+
+.grid {
+  padding: 0 20px;
+  max-width: 1300px;
+  margin: 0 auto;
+  list-style: none;
+  text-align: center;
+}
+
+.grid li {
+  display: inline-block;
+  width: 400px;
+  margin: 0;
+  padding: 20px;
+  text-align: left;
+  position: relative;
+}
+
+.grid figure {
+  margin: 0;
+  position: relative;
+}
+
+.grid figure img {
+  max-width: 100%;
+  display: block;
+  position: relative;
+}
+
+.grid figcaption {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 20px;
+  /*background: rgba(0,0,0,0.2);*/
+  color: white;
+  border-radius: 100%;
+}
+
+.grid figcaption h3 {
+  margin: 0;
+  padding: 0;
+  color: #fff;
+}
+
+.grid figcaption span:before {
+  /*content: 'by ';*/
+}
+
+.grid figcaption a {
+  text-align: center;
+  padding: 5px 10px;
+  border-radius: 2px;
+  display: inline-block;
+  background: #FF7D00;
+  color: white;
+}
+
+
+
+
+/* Caption Style 6 */
+.cs-style-6 figure img {
+  z-index: 10;
+  -webkit-transition: -webkit-transform 0.4s;
+  -moz-transition: -moz-transform 0.4s;
+  transition: transform 0.4s;
+}
+
+.no-touch .cs-style-6 figure:hover img,
+.cs-style-6 figure.cs-hover img {
+  -webkit-transform: translateY(-70px) scale(0.3);
+  -moz-transform: translateY(-70px) scale(0.3);
+  -ms-transform: translateY(-70px) scale(0.3);
+  transform: translateY(-70px) scale(0.3);
+}
+
+.cs-style-6 figcaption {
+  height: 100%;
+  width: 100%;
+  text-align: center;
+}
+
+.cs-style-6 figcaption h3 {
+  margin-top: 50%;
+}
+
+.cs-style-6 figcaption a {
+  position: absolute;
+  bottom: 40px;
+  right: 137px;
+}
+
+
+
+
+
+
+
+/* Caption Style 1 */
+/*.cs-style-1 figcaption {
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  text-align: center;
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
+  -moz-transition: -moz-transform 0.3s, opacity 0.3s;
+  transition: transform 0.3s, opacity 0.3s;
+}
+
+.no-touch .cs-style-1 figure:hover figcaption,
+.cs-style-1 figure.cs-hover figcaption {
+  opacity: 1;
+  -webkit-transform: translate(15px, 15px);
+  -moz-transform: translate(15px, 15px);
+  -ms-transform: translate(15px, 15px);
+  transform: translate(15px, 15px);
+}
+
+.cs-style-1 figcaption h3 {
+  margin-top: 70px;
+}
+
+.cs-style-1 figcaption span {
+  display: block;
+}
+
+.cs-style-1 figcaption a {
+  margin-top: 30px;
+}*/
+
+
+
+
+@media screen and (max-width: 31.5em) {
+  .grid {
+    padding: 0 10px;
+  }
+  .grid li {
+    width: 100%;
+    min-width: 320px;
+  }
+}
+

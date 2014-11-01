@@ -3,11 +3,12 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <title>Harry Levine</title>
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/stylesheet.css" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -18,29 +19,135 @@
   </head>
   <body>
 
-    <div class="container-fluid">
-      <h1>Harry Levine <span class="pull-right">Hire Me</span></h1>
-      <div class="nav">
-            Work
-            About
-            Contact
-          </div>
+    <nav class="navbar navbar-inverse" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html">Harry Levine</a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Work</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="mailto:hmlevine@gmail.com">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+
+
+    <div class="row">
+      <h1 class="pull-right" id="hire-me-button">Hire Me</h1>
     </div>
     <div class="container">
       <div class="row">
         
-        <div class="col-sm-5">Picture 1</div>
-        <div class="col-sm-5">Picture 2</div>
-      </div>
-      <div class="row">
-        
-        <div class="col-sm-5">Picture 3</div>
-        <div class="col-sm-5">Picture 4</div>
-      </div>
-      <div class="row">
-        
-        <div class="col-sm-5">Picture 5</div>
-        <div class="col-sm-5">Picture 6</div>
+        <div class="col-sm-12 col-md-6 col-lg-4">
+          <ul class="grid cs-style-6">
+            <li>
+              <figure>
+                <img src="images/mind-on-rails-port-circle.png" alt="mind-on-rails">
+                <figcaption>
+                  <h3>Mind on Rails | Web Application</h3>
+                  <span>Rails, Ruby, HTML5, CSS3, Sass, RSpec, Git</span>
+                  <p>Mind on Rails is a knowledge exchange, note-taking tool, specifically for Ruby on Rails learners.</p>
+                  <a href="https://mind-on-rails.herokuapp.com/" target="_blank">Take a look</a>
+                </figcaption>
+              </figure>
+            </li>
+          </ul>
+        </div>
+
+        <div class="col-sm-12 col-md-6 col-lg-4">
+          <ul class="grid cs-style-6">
+            <li>
+              <figure>
+                <img src="images/bloccit-port-circle.png" alt="bloccit">
+                <figcaption>
+                  <h3>Bloccit | Web Application</h3>
+                  <span>Rails, Ruby, HTML5, CSS3, AJAX, Sass, RSpec, Git</span>
+                  <p>Bloccit is a clone of Reddit. I created Bloccit with my mentor at Bloc.</p>
+                  <a href="http://harrylevine-bloccit2.herokuapp.com/" target="_blank">Take a look</a>
+                </figcaption>
+              </figure>
+            </li>
+          </ul>
+        </div>
+
+         <div class="col-sm-12 col-md-6 col-lg-4">
+          <ul class="grid cs-style-6">
+            <li>
+              <figure>
+                <img src="images/mustdu-port-circle.png" alt="mustdu">
+                <figcaption>
+                  <h3>MustDU | Web Application</h3>
+                  <span>Rails, Ruby, HTML5, CSS3, jQuery, AJAX, JavaScript, Sass, RSpec, Git</span>
+                  <p>Personalized to-do list that automatically deletes incomplete items after seven days.</p>
+                  <a href="https://mustdu.herokuapp.com/" target="_blank">Take a look</a>
+                </figcaption>
+              </figure>
+            </li>
+          </ul>
+        </div>
+
+      <!-- </div> -->
+      
+
+      <!-- <div class="row"> -->
+        <div class="col-sm-12 col-md-6 col-lg-4">
+          <ul class="grid cs-style-6">
+            <li>
+              <figure>
+                <img src="images/liquid-mechanics-port-circle.png" alt="liquid-mechanics">
+                <figcaption>
+                  <h3>Liquid Mechanics | Website</h3>
+                  <span>HTML5, CSS3, jQuery</span>
+                  <p>While attending the University of Denver, I designed and built this website for a friend’s brewery.</p>
+                  <a href="http://hpjaj.com/liquid/" target="_blank">Take a look</a>
+                </figcaption>
+              </figure>
+            </li>
+          </ul>
+        </div>
+
+
+        <div class="col-sm-12 col-md-6 col-lg-4">
+          <ul class="grid cs-style-6">
+            <li>
+              <figure>
+                <img src="images/30-60-90-port-circle.png" alt="30-60-90">
+                <figcaption>
+                  <h3>30/60/90 Day Plan | Website</h3>
+                  <span>HTML5, CSS3, jQuery</span>
+                  <p>Created this content and website as part of my professional portfolio when pursuing a job opportunity.</p>
+                  <a href="http://hpjaj.com/30-60-90/" target="_blank">Take a look</a>
+                </figcaption>
+              </figure>
+            </li>
+          </ul>
+        </div>
+
+        <div class="col-sm-12 col-md-6 col-lg-4">
+          <ul class="grid cs-style-6">
+            <li>
+              <figure>
+                <img src="images/bootstrap-navbar-port-circle.png" alt="bootstrap-presentation">
+                <figcaption>
+                  <h3>Bootstrap Mobile First Navbar | Speech</h3>
+                  <span>Ruby, Rails, Bootstrap, HTML5, CSS3</span>
+                  <p>Speech that I wrote and presented to the Denver Tech Center Ruby User Group.</p>
+                  <a href="https://docs.google.com/presentation/d/1I_Cg82MgDo9JXKiwFq0J3qpZdyE5KxjfFzjW1J0gfhE/edit?usp=sharing" target="_blank">Take a look</a>
+                </figcaption>
+              </figure>
+            </li>
+          </ul>
+        </div>
       </div>
     </div>
 
@@ -49,6 +156,8 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/modernizr.custom.js"></script>
+    <script src="js/toucheffects.js"></script>
   </body>
 </html>
 
