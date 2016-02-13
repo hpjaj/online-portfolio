@@ -45,7 +45,7 @@ figcaption p {
 }
 
 #hire-me-link:hover {
-  border: 2px solid #FF7D00;   
+  border: 2px solid #FF7D00;
   color: #FF7D00;
   background-color: rgba(0,0,0,0);
 }
@@ -102,6 +102,10 @@ figcaption p {
   margin-top: 30px;
 }
 
+.clear-navbar {
+  margin-top: 12rem;
+}
+
 footer {
   text-align: center;
   padding: 15px 0;
@@ -111,7 +115,7 @@ footer {
   font-family: Socialglyphs;
   font-family: "Socialglyphs";
   src: url(../type/socialglyphs-regular.svg#socialglyphs-regular) format("svg"),
-    url(../type/socialglyphs-regular.ttf) format("truetype"),    
+    url(../type/socialglyphs-regular.ttf) format("truetype"),
     url(../type/socialglyphs-regular.woff) format("woff"),
     url(../type/socialglyphs-regular.eot);
 }
