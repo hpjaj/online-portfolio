@@ -282,7 +282,7 @@ footer h1 a:hover {
   /*content: 'by ';*/
 }
 
-.grid figcaption a {
+.grid figcaption .take-a-look {
   text-align: center;
   padding: 5px 10px;
   border-radius: 2px;
@@ -290,6 +290,19 @@ footer h1 a:hover {
   background: #FF7D00;
   color: white;
 }
+
+.description-link, .description-link:focus, .description-link:visited {
+  color: #3e4553;
+  text-decoration: underline;
+  outline: 0;
+}
+
+.description-link:hover {
+  color: white;
+  text-decoration: none;
+}
+
+
 
 
 
@@ -320,7 +333,7 @@ footer h1 a:hover {
   margin-top: 50%;
 }
 
-.cs-style-6 figcaption a {
+.cs-style-6 figcaption .take-a-look {
   position: absolute;
   bottom: 40px;
   right: 137px;
@@ -365,7 +378,7 @@ footer h1 a:hover {
     border-radius: 0;
   }
 
-  .cs-style-6 figcaption a {
+  .cs-style-6 figcaption .take-a-look {
     position: absolute;
     bottom: -15px;
     right: 0px;
