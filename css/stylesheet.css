@@ -104,6 +104,7 @@ figcaption p {
 
 .clear-navbar {
   margin-top: 12rem;
+  min-height: 100vh;
 }
 
 footer {
